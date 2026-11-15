@@ -6,18 +6,15 @@ export const atletaOlympia = /*#__PURE__*/ defineChain({
   nativeCurrency: { decimals: 18, name: 'Atla', symbol: 'ATLA' },
   rpcUrls: {
     default: {
-      http: [
-        'https://testnet-rpc.atleta.network:9944',
-        'https://testnet-rpc.atleta.network',
-      ],
-      ws: ['wss://testnet-rpc.atleta.network:9944'],
+      http: ['https://testnet-rpc.atleta.network'],
+      webSocket: ['wss://testnet-rpc.atleta.network'],
     },
   },
   blockExplorers: {
     default: {
       name: 'Atleta Olympia Explorer',
-      url: 'https://blockscout.atleta.network',
-      apiUrl: 'https://blockscout.atleta.network/api',
+      url: 'https://blockscout.testnet-v2.atleta.network',
+      apiUrl: 'https://blockscout.testnet-v2.atleta.network/api',
     },
   },
   contracts: {
